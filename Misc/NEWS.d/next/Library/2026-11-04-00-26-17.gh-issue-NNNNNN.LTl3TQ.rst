@@ -1,0 +1,2 @@
+Fix :func:`repr` of :class:`symtable.Symbol` raising :exc:`TypeError` when
+lazy imports are enabled for all modules (``-X lazy_imports=all``).
